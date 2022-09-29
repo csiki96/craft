@@ -1,0 +1,22 @@
+dateModified: 1664450408
+email:
+  fromEmail: wowci85@gmail.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    9cb4da37-9508-49e4-b376-f5fb14a07b70: Craft # Craft
+    66d8a475-da23-4b68-8e23-90f0f25240ff: Common # Common
+    606489f7-a91c-4292-a609-5d4d15a17a2c: Craft # Craft
+system:
+  edition: pro
+  live: true
+  name: Craft
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
