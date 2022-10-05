@@ -1,0 +1,19 @@
+columnSuffix: vmcjlowt
+contentColumnType: text
+fieldGroup: bfd004ae-17fc-4977-8e78-aa816f841007 # Styles
+handle: styleDescription
+instructions: null
+name: 'Style Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

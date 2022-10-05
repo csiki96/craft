@@ -1,0 +1,19 @@
+columnSuffix: twjxgxeo
+contentColumnType: text
+fieldGroup: 66d8a475-da23-4b68-8e23-90f0f25240ff # Common
+handle: Excerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

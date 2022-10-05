@@ -1,0 +1,79 @@
+fieldLayouts:
+  5556605e-8ed4-4e0c-a1cf-e6a13319a21d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dc8f2878-fe61-4071-8003-2496d8069a54
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3bffd6a1-0150-4b8c-8768-ea7831dc46f8 # Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ba2d6b9-679d-4883-aa5f-7c26ee42f801
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c0c98db0-b0bc-4122-8c20-0bdf980d2b1c # News Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 602140ae-1a84-4b66-b56c-b1b1a94e3b51
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7f4447f5-9505-45d5-9de9-49e2fb06da34 # News Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 72879319-25c5-454c-807f-4a5113904041
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9ab937b6-e5c7-4e5d-be34-a744857fb65b
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 75f121df-81d8-44b8-acf2-f5b8acd9fecb # News 
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

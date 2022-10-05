@@ -1,0 +1,79 @@
+fieldLayouts:
+  0d36539d-85e0-42ff-9f5e-83ef897086ca:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 584f896b-11e7-4ff0-91d6-c727c5eadabd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d29dc04-ed53-4439-9535-4f5bcada9026 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 172359da-c933-4f02-b3cf-c872c23f48ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d5e79c93-1301-420c-b2c6-2a3868218dc7 # Page Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a770bd91-9e78-485b-8f31-95a80d3b7416
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 58fc35c8-3365-4ab8-b7cc-db3ce2abf02a # Page Copy
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa1a7e78-b8ff-4ea2-a836-6e8f4e4a06a9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c12912e0-0ca6-4f79-9c50-e38b6a538800
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: a5ebcd16-372e-4d47-9fe1-3248b33de179 # About Crafty Coffee
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

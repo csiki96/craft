@@ -1,19 +1,119 @@
-dateModified: 1664450408
+dateModified: 1664956114
+elementSources:
+  craft\elements\Category:
+    -
+      disabled: false
+      key: 'group:31a7c722-7e50-4015-bd1a-46183c3fd97d' # Drink Styles
+      tableAttributes:
+        - link
+        - 'field:8f1acb99-2b66-4004-81aa-d0370ccea274' # Style Description
+        - uri
+      type: native
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:1e0b4b59-3c54-4f03-b825-249f6a444b65' # Drinks
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+        - 'field:12b03534-3c7c-4814-9890-1d9538316475' # Drink Image
+      type: native
+    -
+      key: 'section:75f121df-81d8-44b8-acf2-f5b8acd9fecb' # News 
+      type: native
 email:
   fromEmail: wowci85@gmail.com
   fromName: Craft
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: '@webroot/uploads/news'
+    type: craft\fs\Local
+    url: '@web/uploads/news/'
 meta:
   __names__:
+    1c5dcf96-ff6d-4dae-95ad-5f8fbdf6e621: News # News
+    1d29dc04-ed53-4439-9535-4f5bcada9026: Subtitle # Subtitle
+    1e0b4b59-3c54-4f03-b825-249f6a444b65: Drinks # Drinks
+    2c0a7287-d33c-4349-973d-fd94700938c8: Introduction # Introduction
+    3bffd6a1-0150-4b8c-8768-ea7831dc46f8: Excerpt # Excerpt
+    4edb9df3-63d5-4187-a6d4-1d054b288a6a: Recipes # Recipes
+    5cfc6611-0ee8-4be7-b408-8a482454093d: 'Recipe Content' # Recipe Content
+    6d107d6b-52ff-4deb-b625-bb5376199aa1: 'Recipe Copy' # Recipe Copy
+    06dec79a-4b20-463c-a75a-a4d79c72ac4b: Image # Image
+    7df6cc8f-f102-406b-bcb4-9e71860ed253: Default # Default
+    7f4447f5-9505-45d5-9de9-49e2fb06da34: 'News Image' # News Image
+    8f1acb99-2b66-4004-81aa-d0370ccea274: 'Style Description' # Style Description
+    8faf1453-aa6e-4ebe-bc5e-2af8b451d3e4: Homepage # Homepage
     9cb4da37-9508-49e4-b376-f5fb14a07b70: Craft # Craft
+    12b03534-3c7c-4814-9890-1d9538316475: 'Drink Image' # Drink Image
+    24de6202-4a01-42f8-aaa3-ba3f359a7a21: 'Image Caption' # Image Caption
+    30c99d66-330b-4ae6-a5ed-53226c8d37f6: 'Recipe Tip' # Recipe Tip
+    31a7c722-7e50-4015-bd1a-46183c3fd97d: 'Drink Styles' # Drink Styles
+    38d947b1-9667-4985-b73f-bcb8ce626589: Recipes # Recipes
+    58fc35c8-3365-4ab8-b7cc-db3ce2abf02a: 'Page Copy' # Page Copy
     66d8a475-da23-4b68-8e23-90f0f25240ff: Common # Common
+    68c3b42a-89df-4299-ab36-c5aa8fa9d069: Drinks # Drinks
+    74cb6c02-3b0a-4198-a075-c07416c7e2d4: '840x200 Thumb' # 840x200 Thumb
+    75f121df-81d8-44b8-acf2-f5b8acd9fecb: 'News ' # News 
+    76c961a7-a34e-43d1-a788-65ced3505a74: About # About
+    244f3be7-937f-432c-bff7-8bd4159ee4c8: Default # Default
+    876ac64d-e055-400e-b453-3704cefbed40: News # News
+    58233f1d-189d-446d-9d5b-101f4e168011: 'Steps title' # Steps title
+    209656dc-f6f9-42cb-9b15-2c383f9910bf: 'Recipe Ingredients' # Recipe Ingredients
     606489f7-a91c-4292-a609-5d4d15a17a2c: Craft # Craft
+    3323292c-d35d-4b64-99d6-cdb00866b6c8: 'Recipe Image' # Recipe Image
+    7949122a-4ec4-4649-87fd-3c44a2894afa: Ingredients # Ingredients
+    a5ebcd16-372e-4d47-9fe1-3248b33de179: 'About Crafty Coffee' # About Crafty Coffee
+    a57d01f7-b82f-499c-9751-d86a85b7252b: 'Recipe Steps' # Recipe Steps
+    b893b826-1ac0-4dd2-bd4c-1bb49a2a459a: 'Steps content' # Steps content
+    bda9658e-fa01-412f-a592-0cd7382e71c1: Drinks # Drinks
+    bfd004ae-17fc-4977-8e78-aa816f841007: Styles # Styles
+    c0c98db0-b0bc-4122-8c20-0bdf980d2b1c: 'News Body' # News Body
+    c9434c6f-3031-48d0-a933-cbcd59b853dd: 'Body Content' # Body Content
+    cad843b7-9bbd-4723-8d15-3bb95dd889a8: Homepage # Homepage
+    d1c5792b-8c9c-4848-aa7e-c0840e7128dc: Recipes # Recipes
+    d5e79c93-1301-420c-b2c6-2a3868218dc7: 'Page Intro' # Page Intro
+    d463a1c8-1de2-4f73-9ffe-fb735c97f813: 'Public Schema' # Public Schema
+    dbd4e1ec-9df3-4584-b221-c9747af80176: 'Drink Style' # Drink Style
+    ed2e75ad-9d3b-4a5a-bee4-fcf4400b3b20: 'Tip Content' # Tip Content
+    fd6bb182-461e-40ca-a7d4-0555853978ce: Drinks # Drinks
+    ff800c67-b8ef-4e97-84d4-b572db11573e: 'Drink Recipe' # Drink Recipe
+plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: UFQQ1URNRFY82TE9U476N9EO
+    schemaVersion: 3.0.11
 system:
   edition: pro
   live: true
   name: Craft
+  retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Budapest
 users:
   allowPublicRegistration: false
   defaultGroup: null

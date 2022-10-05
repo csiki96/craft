@@ -1,0 +1,19 @@
+columnSuffix: eswxklta
+contentColumnType: text
+fieldGroup: 76c961a7-a34e-43d1-a788-65ced3505a74 # About
+handle: pageIntro
+instructions: null
+name: 'Page Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

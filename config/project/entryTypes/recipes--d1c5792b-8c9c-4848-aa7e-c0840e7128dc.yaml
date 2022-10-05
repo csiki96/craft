@@ -1,0 +1,67 @@
+fieldLayouts:
+  0d19b337-bf7f-4f67-b4ff-d8b15bb9c22b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dbd4e1ec-9df3-4584-b221-c9747af80176 # Drink Style
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ceea5d47-1349-4833-aae6-382774840259
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bb2a1aaa-3041-4e0e-b247-7efdcd3278d4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5cfc6611-0ee8-4be7-b408-8a482454093d # Recipe Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 214cd9bd-25c6-4085-a841-d7fabca21eca
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 80edfc87-d49b-4101-811d-71a4f319c9cc
+        userCondition: null
+handle: recipes
+hasTitleField: true
+name: Recipes
+section: 4edb9df3-63d5-4187-a6d4-1d054b288a6a # Recipes
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

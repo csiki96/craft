@@ -1,0 +1,27 @@
+columnSuffix: sfglnaet
+contentColumnType: text
+fieldGroup: 1c5dcf96-ff6d-4dae-95ad-5f8fbdf6e621 # News
+handle: newsBody
+instructions: null
+name: 'News Body'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
